@@ -2,6 +2,7 @@
 This is a sample application that uses web components and the new Object.observe method. The application is a port of an Angular JS application called Kolab. The original kolab project is built in NodeJS, Socket.io and AngularJS. This version is for experimental and example purposes only. The goal will be to enhance the design paterns around the use of the web-components for use in the original application. As this work continues this repository will be updated with further experiments and examples of web compnent design paterns. The original applciaiton will be placed into a public repository here on git-hub in the near future.
 
 As patterns and best practices are still emerging in this space you may expect the code to change as new experiments are conducted. For a more complete writeup of the expirements and learnings contained herein please refer to the the following blog post.
+http://malignantgenius.com/2015/01/04/a-first-look-at-web-components-and-object-observe/
 
 ## How to run the applciation
 While the data is static, and this port does not include full functionality, the application can be run from any web server capable of serving staic content. No other backend is required.

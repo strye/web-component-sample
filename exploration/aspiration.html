@@ -1,0 +1,42 @@
+
+
+<template id="asperation-new">
+	<div class="goals">
+		<div class="edit-box">
+			<textarea ng-model="NewGoal.Title"></textarea>
+			<br />
+			Target: <input type="text" ng-model="NewGoal.Target" class="text-half" />
+			<button id="save-add">Save</button>
+			<button id="cancel-add">Cancel</button>
+		</div>
+	</div>
+</template>
+
+<template id="asperation">
+	<div class="goals">
+		<div class="item">
+			<span id="edit" class="icon flt-rgt icon-edit"></span>
+			<span id="save-status" class="icon checkbox-{{goal.Met}}"></span>
+
+			<span id="title"></span>
+			<div class="meta">Target: <span id="target"></span></div>
+		</div>
+	</div>
+</template>
+
+<template id="asperation-edit">
+	<div class="goals">
+		<div class="item">
+			<span id="save" class="icon flt-rgt icon-save" ng-click="SaveGoal(goal)"></span>
+			<span id="remove" class="icon flt-rgt icon-delete"></span>
+			<span id="goal-status" class="icon checkbox-{{goal.Met}}"></span>
+			<input id="title" type="text" class="text"/>
+			<div class="meta">Target:
+				<input id="target" type="text" class="text-half"/>
+			</div>
+		</div>
+	</div>
+</template>
+
+
+<script type="text/javascript" src="asperation.js"></script>

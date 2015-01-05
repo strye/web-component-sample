@@ -1,0 +1,45 @@
+<script async>
+	function handleLoad(e) {
+		console.log('Loaded import: ' + e.target.href);
+	}
+	function handleError(e) {
+		console.log('Error loading import: ' + e.target.href);
+	}
+</script>
+<link rel="import" href="../data/data.html" onerror="handleError(event)">
+<link rel="import" href="expanse-box.html" onerror="handleError(event)">
+
+<style>
+body /deep/ kolab-expanse-list {width:50%;float:left;}
+</style>
+
+
+<template id='expanse-list'>
+
+<h3>Explore an expanse</h3>
+
+<div>
+	<div class="edit-box">
+		<div id="new-expanse" class="hidden">
+			<span class="label">Title:</span><br />
+			<input id="add-title" type="text" class="text" />
+			<br />
+			<span class="label">Purpose:</span><br />
+			<textarea id="add-purpose" class="text"></textarea>
+			<button id="cancel-add">Cancel</button>
+			<button id="save-add">Save</button>
+		</div>
+		<button id="add-expanse">Add Space</button>
+	</div>
+
+	<div id="expanses" class="item">
+		<!-- Place template content here -->
+	</div>
+
+</div>
+
+</template>
+
+
+
+<script type="text/javascript" src="expanse.js"></script>

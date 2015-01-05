@@ -1,0 +1,169 @@
+/* Initial cleanup
+----------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0 none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+}
+header,footer,nav,section {display: block;}
+:focus {outline: 0 none;}
+form label {cursor: pointer;}
+input, select, textarea {font-size: 100%;}
+.clearer {clear: both;}
+
+/* Initial Setup
+----------------------------------------------- */
+p {margin: 0 0 1em 0;}
+ul, ol {margin: 0 0 1em 2em;}
+ul {list-style: disc;}
+li {margin: 0 0 0.25em 0;}
+strong {font-weight: bold;}
+code {font-family: 'Courier New', Courier, monospace; font-size: 1.1em; color: #7ca653;}
+acronym {border-bottom: 1px solid #8fb7bf;}
+small {font-size: 0.8em;}
+h1, h2, h3, h4 {font-weight: normal; line-height: 120%;padding: 0 0 0.1em 0;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em; border-bottom: 1px solid #ccc;}
+h3 {font-size: 1.25em; text-transform: uppercase;}
+h4 {font-size: 0.8em;text-transform: uppercase;}
+input, select, textarea {width:150px;}
+input[type=radio], input[type=checkbox] {width:16px;}
+a {text-decoration: none;}
+a:link, a:visited, a:active {color: #00B7FF;}
+a:hover {color: #a8001c;}
+
+
+
+/* Helpers Setup
+----------------------------------------------- */
+body /deep/ .hidden {display: none;}
+body /deep/ .icon {display:block; height:16px; width:16px;float:left;margin: 3px 4px; cursor: pointer; }
+body /deep/ .icon-spacer {display:block; height:16px; width:10px;float:left;margin: 3px 4px;}
+body /deep/ .date {width:75px;}
+body /deep/ .text {width:80%;}
+body /deep/ .text-half {width:40%;}
+body /deep/ .text-integer {width:40px;}
+
+
+body /deep/ .flt-lft{float:left;}
+body /deep/ .flt-rgt{float:right;}
+body /deep/ .clearfix{clear: both;}
+
+/* Basic Styling
+----------------------------------------------- */
+body
+{
+	height: 100%;
+	font-size: 12px;
+	font-family: "Lucida Grande", Helvetica, Arial, Sans-Serif;
+	color: #232323;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+
+header nav {float: right;margin-right: 25px;}
+header nav a {text-decoration: none;color: #00B7FF;}
+header nav a:hover {color: #a8001c;}
+
+header h2 {text-align: center;}
+
+#page { margin: 0 auto; width: 980px; text-align: left; min-height: 400px; padding-bottom: 25px;}
+
+
+
+body /deep/ .left-content{margin-left: 5px;width:700px}
+
+body /deep/ .topics {width:250px;float:left;background-color: #aac}
+/*
+body /deep/ .topics .inset{padding: 4px 0;cursor: pointer ; }
+body /deep/ .topics .inset-1{margin-left: 2px; font-size: 1.25em; }
+body /deep/ .topics .inset-2{margin-left: 12px; font-size: 1.1em;}
+body /deep/ .topics .inset-3{margin-left: 22px; font-size: 1em;}
+*/
+body /deep/ #space-content {margin-left: 5px;float:left;width:500px}
+body /deep/ #right-panel {margin-left: 5px;float: right;width:215px}
+body /deep/ #right-panel .msg-box{border-bottom: 1px solid #777;padding: 3px; margin-top: 6px;}
+body /deep/ #right-panel .header{font-size: 1.1em; font-weight: bold;}
+body /deep/ #right-panel .message{font-size: 1em;}
+body /deep/ #right-panel .meta{font-size: 0.8em; font-style: italic;text-align: right;}
+
+body /deep/ #space-tabs .tab{
+	width:75px;
+	height:45px;
+	margin: 3px 0 0 8px;
+	float: left;
+	padding: 4px 8px;
+	border-radius:5px;
+	font-size: 14px;
+	cursor: pointer;
+
+	border-width: 3px;
+	border-style: solid;
+	border-bottom-width: 6px;
+	position: relative;
+}
+body /deep/ #space-tabs .tab span{
+	display: block;
+	position: absolute;
+	bottom:8px;
+	right: 8px;
+	font-size: 18px;
+}
+
+body /deep/ #space-tabs-margin{
+	height: 0;
+	border-style: solid;
+	border-width: 5px;
+}
+body /deep/ #space-tabs .tab-spacer{color: #000;border: none;width:15px;}
+body /deep/ #space-tabs .tab-active-false{border-bottom-width: 3px;color:#777}
+body /deep/ #space-tabs .tab-active-true{font-size: 16px;border-radius:5px 5px 0 0;}
+
+
+
+body /deep/ .tab-orange{border-color: #f90;}
+body /deep/ .tab-yellow{border-color: #dd5;}
+body /deep/ .tab-green{border-color: #7D9029;}
+body /deep/ .tab-azure{border-color: #0077ff;}
+body /deep/ .tab-blue{border-color: #00f;}
+body /deep/ .tab-indigo{border-color: #60f;}
+body /deep/ .tab-violet{border-color: #b0b;}
+body /deep/ .tab-red{border-color: #d00;}
+body /deep/ .tab-tan{border-color: #ddb;}
+
+
+
+body /deep/ .edit-box{margin:5px;border-bottom: solid 1px #333}
+body /deep/ .edit-box textarea, .edit-box input {width:98%}
+body /deep/ .item{margin:5px;border-bottom: solid 1px #cdcdcd}
+body /deep/ .item .meta {font-style: italic;margin-top: 3px;}
+body /deep/ .meta{text-align: right;margin-right: 50px;}
+body /deep/ .item-edit {margin:5px;border-bottom: solid 2px #333}
+/*.item textarea, .item input{width:80%;}*/
+
+
+body /deep/ .checkbox-false{border:1px solid #000;border-radius: 2px;background-color: #ddd}
+body /deep/ .checkbox-true{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick.png')}
+
+body /deep/ .checkbox-0{border:1px solid #000;border-radius: 2px;background-color: #ddd}
+body /deep/ .checkbox-1{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-blue.png')}
+body /deep/ .checkbox-2{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-orange.png')}
+body /deep/ .checkbox-3{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-grey.png')}
+body /deep/ .checkbox-4{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-green.png')}
+
+body /deep/ .icon-edit { background-image:url('../images/pencil.png');}
+body /deep/ .icon-save { background-image:url('../images/disk.png');}
+body /deep/ .icon-delete { background-image:url('../images/delete.png');}
+
+
+
+/* Helpers Setup
+----------------------------------------------- */

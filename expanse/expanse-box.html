@@ -1,0 +1,50 @@
+<style>
+body /deep/ kolab-expanse-box::shadow .text {width:90%;}
+body /deep/ kolab-expanse-box::shadow .title {font-size: 1.25em; font-weight: bold;padding-bottom: 4px;}
+body /deep/ kolab-expanse-box::shadow .description {font-style: italic;}
+body /deep/ kolab-expanse-box::shadow .label {font-weight: bold;}
+body /deep/ kolab-expanse-box::shadow #select {
+	display:block; 
+	height:24px; 
+	width:24px;
+	float:right;
+	margin: 3px 4px; 
+	cursor: pointer; 
+	border-radius: 16px;
+	background-color: #99a;
+	border-width: 4px;
+	border: 4px solid #007;
+}
+body /deep/ kolab-expanse-box::shadow #select.selected {
+	background-color: #7d7;
+	border-color: #070;
+}
+
+
+</style>
+
+<template id='expanse-box'>
+	<div class="item">
+		<span id="select" ></span>
+		<span id="edit" class="icon flt-rgt icon-edit"></span>
+		<div id="title" class="title"></div>
+		<div id="purpose" class="description"></div>
+	</div>
+	<div class="clearfix"></div>
+</template>
+
+<template id='expanse-box-edit'>
+	<div class="item item-edit">
+		<span id="save" class="icon flt-rgt icon-save"></span>
+		<span id="remove" class="icon flt-rgt icon-delete"></span>
+		<br />
+		<span class="label">Title:</span><br />
+		<input id="title" type="text" class="text" />
+		<br />
+		<span class="label">Purpose:</span><br />
+		<textarea id="purpose" class="text"></textarea>
+	</div>
+	<div class="clearfix"></div>
+</template>
+
+<script type="text/javascript" src="expanse-box.js"></script>

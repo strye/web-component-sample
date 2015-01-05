@@ -1,0 +1,49 @@
+<script async>
+	function handleLoad(e) {
+		console.log('Loaded import: ' + e.target.href);
+	}
+	function handleError(e) {
+		console.log('Error loading import: ' + e.target.href);
+	}
+</script>
+<link rel="import" href="../data/data.html" onerror="handleError(event)">
+<link rel="import" href="activity.html" onerror="handleError(event)">
+<link rel="import" href="aspiration.html" onerror="handleError(event)">
+<link rel="import" href="inquiry.html" onerror="handleError(event)">
+<link rel="import" href="momento.html" onerror="handleError(event)">
+
+<script type="text/javascript" src="exploration-detail.js"></script>
+
+
+<template id="exploration-detail">
+	<div id="space-content">
+		<h2 id="exploration-title"></h2>
+		<div id="space-tabs">
+			<div class="tab tab-spacer"></div>
+			<div id="aspiration-tab" class="tab tab-green tab-active-{{tabs[0].active}}">
+				Goals<br/>
+				<span id="asperation-cnt">0</span>
+			</div>
+			<div id="inquiry-tab" class="tab tab-indigo tab-active-{{tabs[1].active}}">
+				Questions<br/>
+				<span id="inquiry-cnt">0</span>
+			</div>
+			<div id="activity-tab" class="tab tab-orange tab-active-{{tabs[2].active}}">
+				Action Items<br/>
+				<span id="activity-cnt">0</span>
+			</div>
+			<div id="momento-tab" class="tab tab-azure tab-active-{{tabs[3].active}}">
+				Notes<br/>
+				<span id="momento-cnt">0</span>
+			</div>
+			<div class="clearfix"></div>
+			<div id="space-tabs-margin" ng-class="currentTab().class"></div>
+		</div>
+
+		<div id="list-content">
+		</div>
+
+	</div>
+<template>
+
+<script type="text/javascript" src="exploration-detail.js"></script>

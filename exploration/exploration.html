@@ -1,0 +1,55 @@
+<script async>
+	function handleLoad(e) {
+		console.log('Loaded import: ' + e.target.href);
+	}
+	function handleError(e) {
+		console.log('Error loading import: ' + e.target.href);
+	}
+</script>
+<link rel="import" href="../data/data.html" onerror="handleError(event)">
+<link rel="import" href="exploration-box.html" onerror="handleError(event)">
+
+<style>
+body /deep/ kolab-exploration-list {float:right;}
+</style>
+
+
+<template id="exploration-list">
+	<div class="topics">
+		<button id="browse-expanse">Browse Expanses</button>
+		<div class="edit-box">
+			<div id="new-exploration" class="hidden">
+				<span class="label">Title:</span><br />
+				<input id="add-title" type="text" class="text" />
+				<br />
+				<span class="label">Order:</span><br />
+				<input id="add-order" type="text" class="text-integer" />
+				<br />
+				<span class="label">Level:</span><br />
+				<input id="add-level" type="text" class="text-integer" />
+				<br />
+				<button id="cancel-add">Cancel</button>
+				<button id="save-add">Save</button>
+			</div>
+			<button id="add-exploration">Add Exploration</button>
+		</div>
+		
+		<div id="explorations" class="item">
+			<!-- Place template content here -->
+		</div>
+	</div>
+</template>
+
+<template id="exploration-list-readonly">
+	<div class="topics">
+		<button id="goto-expanse">Open Expanse</button>
+		<div class="edit-box">
+		</div>
+		
+		<div id="explorations" class="item">
+			<!-- Place template content here -->
+		</div>
+	</div>
+</template>
+
+<script type="text/javascript" src="exploration.js"></script>

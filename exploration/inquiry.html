@@ -1,0 +1,46 @@
+
+<template id="inquiry-new">
+	<div class="edit-box">
+		<textarea id="question"></textarea>
+		<br />
+		<button id="save-add">Add</button>
+		<button id="cancel-add">Cancel</button>
+	</div>
+</template>
+
+<template id="inquiry">
+	<div class="item" ng-repeat="question in Questions | filter:QuestionTopicFilter">
+		<span id="edit" class="icon icon-edit flt-rgt"></span>
+		<div class="note">
+			<span class="flt-lft">Q:</span>
+			<span id="question"></span>
+			<div class="clearfix"></div>
+		</div>
+		<div class="note">
+			<span class="flt-lft">A:</span>
+			<span id="answer"></span>
+			<div class="clearfix"></div>
+		</div>
+		<div class="meta">asked on: <span id="asked-on"></span></div>
+		<div class="meta">answered on: <span id="answered-on"></span></div>
+	</div>
+</template>
+
+<template id="inquiry-edit">
+	<div class="item">
+		<span id="save" class="icon flt-rgt icon-save"></span>
+		<span id="remove" class="icon flt-rgt icon-delete"></span>
+		<div class="item edit-tb">
+			<span class="flt-lft">Q:</span>
+			<textarea id="question"></textarea>
+			<div class="clearfix"></div>
+		</div>
+		<div class="edit-tb">
+			<span class="flt-lft">A:</span>
+			<textarea id="answer"></textarea>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</template>
+
+<script type="text/javascript" src="inquiry.js"></script>

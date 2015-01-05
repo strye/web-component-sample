@@ -1,0 +1,35 @@
+
+
+
+<template id="activity-new">
+	<div class="edit-box">
+		<textarea id="title"></textarea>
+		<br />
+		Target: <input id="target-date" type="text" class="text-half" />
+		<button id="save-add">Add</button>
+		<button id="cancel-add">Cancel</button>
+	</div>
+</template>
+
+<template id="activity">
+	<div class="item">
+		<span id="edit" class="icon flt-rgt icon-edit"></span>
+		<span id="activity-status" class="icon checkbox-{{action.Status}}"></span>
+		<span id="title"></span>
+		<div class="meta">Target: <span id="target-date"></span></div>
+	</div>
+</template>
+
+<template id="activity-edit">
+	<div class="item">
+		<span id="save" class="icon flt-rgt icon-save"></span>
+		<span id="remove" class="icon flt-rgt icon-delete"></span>
+		<span id="activity-status" class="icon checkbox-{{action.Status}}"></span>
+		<input id="title" type="text" class="text"/>
+		<div class="meta">Target:
+			<input id="target-date" type="text" class="text-half"/>
+		</div>
+	</div>
+</template>
+
+<script type="text/javascript" src="activity.js"></script>

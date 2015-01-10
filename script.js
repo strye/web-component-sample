@@ -52,7 +52,14 @@
 		}, false);
 
 		explList.addEventListener('browse', function (e) { 
-			// Hide expanse list
+			// Remove exploration detail
+			var container = document.querySelector('#page');
+			var explDetail = container.querySelector('#kepl-detail');
+			if (explDetail) {
+				if (explDetail) container.removeChild(explDetail);
+			}
+
+			// Show expanse list
 			showElement(container, '#tel');
 
 			// change explorations to float right

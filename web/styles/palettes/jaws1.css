@@ -1,0 +1,40 @@
+
+:root {
+	--color-1: rgb(111,105,121);
+	--color-2: rgb(132,95,95);
+	--color-3: rgb(185,153,108);
+	--color-4: rgb(41,20,31);
+	--color-5: rgb(175,194,225);
+	--color-6: rgb(69,74,108);
+	--color-7: rgb(188,177,184);
+	--color-8: rgb(108,113,129);
+	--color-9: rgb(125,73,61);
+	--color-10: rgb(28,24,28);
+	--color-lite: rgb(235,245,255);
+	--color-dark: rgb(33,33,33);
+
+	
+	--main-bg-color: var(--color-3);
+	--main-fn-color:var(--color-10);
+
+	--secondary-bg-color: var(--color-5);
+	--secondary-fn-color: var(--color-10);
+
+	--highlite-bg-color: var(--color-2);
+	--highlite-fn-color: var(--color-7);
+
+}
+
+/*
+.jaws1-c1 {background-color: rgb(111,105,121); color: hsl(262,7,44)}
+.jaws1-c2 {background-color: rgb(132,95,95); color: hsl(0,16,44)}
+.jaws1-c3 {background-color: rgb(185,153,108); color: hsl(35,35,57)}
+.jaws1-c4 {background-color: rgb(41,20,31); color: hsl(328,34,11)}
+.jaws1-c5 {background-color: rgb(175,194,225); color: hsl(217,45,78)}
+.jaws1-c6 {background-color: rgb(69,74,108); color: hsl(232,22,34)}
+.jaws1-c7 {background-color: rgb(188,177,184); color: hsl(321,7,71)}
+.jaws1-c8 {background-color: rgb(108,113,129); color: hsl(225,8,46)}
+.jaws1-c9 {background-color: rgb(125,73,61); color: hsl(11,34,36)}
+.jaws1-c10 {background-color: rgb(28,24,28); color: hsl(257,22,12)}
+*/
+

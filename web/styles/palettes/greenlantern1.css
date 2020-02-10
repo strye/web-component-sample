@@ -1,0 +1,86 @@
+:root {
+	--color-1: rgb(176,188,204); 
+	--color-2: rgb(130,169,202); 
+	--color-2-25: rgba(130,169,202,0.25); 
+	--color-2-50: rgba(130,169,202,0.5); 
+	--color-3: rgb(77,77,127); 
+	--color-3-50: rgba(77,77,127,0.5); 
+	--color-4: rgb(192,204,202); 
+	--color-5: rgb(159,157,145); 
+	--color-5-25: rgba(159,157,145,0.25); 
+	--color-5-50: rgba(159,157,145,0.5); 
+	--color-5-75: rgba(159,157,145,0.75); 
+	--color-6: rgb(135,103,64); 
+	--color-7: rgb(203,169,121); 
+	--color-8: rgb(219,158,91); 
+	--color-8-25: rgba(219,158,91,0.25); 
+	--color-8-50: rgba(219,158,91,0.5); 
+	--color-8-75: rgba(219,158,91,0.75); 
+	--color-9: rgb(225,129,79); 
+	--color-9-25: rgba(225,129,79,0.25); 
+	--color-9-50: rgba(225,129,79,0.5); 
+	--color-9-75: rgba(225,129,79,0.75); 
+	--color-10:rgb(215,76,105); 
+	--color-11:rgb(121,150,66); 
+	--color-11-25:rgba(121,150,66,0.25); 
+	--color-11-50:rgba(121,150,66,0.5); 
+	--color-11-75:rgba(121,150,66,0.75); 
+	--color-12:rgb(79,144,86); 
+	--color-12-25:rgba(79,144,86,0.25); 
+	--color-12-50:rgba(79,144,86,0.5); 
+	--color-12-75:rgba(79,144,86,0.75); 
+	--color-13:rgb(70,107,74); 
+	--color-13-25:rgba(70,107,74,0.25); 
+	--color-13-50:rgba(70,107,74,0.5); 
+	--color-13-75:rgba(70,107,74,0.75); 
+	--color-14:rgb(244,238,90); 
+	--color-15:rgb(237,79,54); 
+
+	--color-lite: rgb(252,249,242);
+    --color-dark: rgb(13,12,10);
+    --color-nike-or: rgb(255,102,0);
+    --color-nike-or-25: rgba(255,102,0,0.25);
+    --color-nike-or-50: rgba(255,102,0,0.5);
+    --color-nike-or-75: rgba(255,102,0,0.75);
+
+	--main-bg-color: var(--color-lite);
+	--main-fn-color: var(--color-dark);
+	--secondary-bg-color: var(--color-13);
+	--secondary-fn-color: var(--color-lite);
+
+	--alt-bg-color: var(--color-12);
+    --alt-fn-color: var(--color-lite);
+    
+	--alt-sec-bg-color: var(--color-5);
+	--alt-sec-fn-color: var(--color-dark);
+
+
+	--highlite-bg-color: var(--color-8);
+	--highlite-fn-color: var(--color-dark);
+
+	--alert-bg-color: var(--color-15);
+	--alert-fn-color: var(--color-dark);
+
+	--input-hilite-bg: var(--color-9);
+
+
+
+	/*hsl*/
+	--color-1-hsl: hsl(214,21,74);
+	--color-2-hsl: hsl(207,40,65);
+	--color-3-hsl: hsl(240,24,40);
+	--color-4-hsl: hsl(170,10,77);
+	--color-5-hsl: hsl(51,6,59);
+	--color-6-hsl: hsl(32,35,39);
+	--color-7-hsl: hsl(35,44,63);
+	--color-8-hsl: hsl(31,63,60);
+	--color-9-hsl: hsl(20,70,59);
+	--color-10-hsl: hsl(347,63,57);
+	--color-11-hsl: hsl(80,38,42);
+	--color-12-hsl: hsl(126,29,43);
+	--color-13-hsl: hsl(126,20,34);
+	--color-14-hsl: hsl(57,87,65);
+	--color-15-hsl: hsl(8,83,57);
+
+
+}

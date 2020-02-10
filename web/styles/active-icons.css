@@ -1,0 +1,33 @@
+@import url("icons/base-icons.css");
+@import url("icons/av-icons.css");
+@import url("icons/device-icons.css");
+@import url("icons/editor-icons.css");
+@import url("icons/hardware-icons.css");
+@import url("icons/images-icons.css");
+@import url("icons/map-icons.css");
+@import url("icons/notification-icons.css");
+@import url("icons/places-icons.css");
+@import url("icons/social-icons.css");
+
+
+.icon-spacer {display:block; height:16px; width:10px;float:left;margin: 3px 4px;}
+
+
+.icon {
+	display:block; 
+	height:24px; 
+	width:24px;
+	float:left;
+	margin: 3px 4px; 
+	cursor: pointer; 
+	mask-repeat: no-repeat;
+	mask-size: cover;
+	mask-position: center;
+	background-color: #000;
+}
+.icon-16 { height:16px; width:16px; }
+.icon-32 { height:32px; width:32px; }
+.icon-64 { height:64px; width:64px; }
+.icon-128 { height:128px; width:128px; }
+.color-red {background-color: red; }
+

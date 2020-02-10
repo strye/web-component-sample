@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kolab - A Kahootz Module</title>
+	<link rel='stylesheet' href='styles/index.css' />
+
+    <script type="module" src="/elements/page-header.js"></script>
+    <!--
+    <script type="module" src="/js/classes/dataCollection.js"></script>
+    <script type="module">import DataCollection from '/js/classes/dataCollection.js';</script>
+
+
+	<link rel="import" href="shared/_9d.html" onerror="handleError(event)">
+	<link rel="import" href="data/data.html" onerror="handleError(event)">
+	<link rel="import" href="expanse/expanse.html" onerror="handleError(event)">
+	<link rel="import" href="exploration/exploration.html" onerror="handleError(event)">
+	<link rel="import" href="exploration/exploration-detail.html" onerror="handleError(event)">
+
+	-->
+    
+    <script type="module" src="/js/home.js"></script>
+
+</head>
+<body>
+
+	<page-header>
+		<nav slot="navMenu">
+			<a href="/">home</a>
+			<h2>Testing Single Page Module Application/HTML Only</h2>
+		</nav>
+	</page-header>
+
+	<div id="page" class="content">
+		<p></p>
+		<button id="sortExp">Sort List</button>
+		<div class="clearfix"></div>
+		<kolab-expanse-list id="tel"></kolab-expanse-list>
+	</div> <!-- end page, content -->
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+@import url("boilerplate.css");
+@import url("palettes/starwars_com1.css");
+@import url("palettes/nike.css");
+
+/* Basic Styling
+----------------------------------------------- */
+body
+{
+	height: 100%;
+	font-size: 14px;
+	font-family: "Lucida Grande", Helvetica, Arial, Sans-Serif;
+	color: #232323;
+	background-color: #fff;
+	text-align: center;
+}
+
+
+
+h1{font-size: 1.4em}
+h2{font-size: 1.2em;font-weight: bold; padding:4px;margin-bottom:6px;}
+h3{font-size: 1em; font-variant: all-small-caps;}
+
+
+header {background-color: #333; padding:6px 0 0 6px; color:#eee; margin:0;
+	box-shadow: 0 5px 10px #888;margin-bottom: 10px;
+	position: fixed;top:0;width:100%;height:60px;z-index: 1000;
+}
+header h1 {font-size: 1.5em; font-style: italic;width:960px;text-align: left;margin:0 auto;}
+
+/*.page {width:960px; text-align: left;margin:0 auto;padding: 80px 0 40px 0;}*/
+
+.content {margin-top:100px;}
+
+
+footer {background-color: #333; padding:6px 0 0 6px; color:#eee; margin:0;
+	position: fixed; bottom: 0;width:100%;height:25px;}
+footer h2 {font-size: .9em; font-style: italic;width:960px;text-align: center;margin:0 auto;border:0;}
+
+
+.title-block{cursor: pointer; vertical-align: top;}
+.title-block h3{float:left;	padding-top: 5px;}
+
+.expand-true{background-image:url(../images/bullet_arrow_bottom.png);}
+.expand-false{background-image:url(../images/bullet_arrow_right.png);}
+.prev{float:left;width:20px;height:35px;margin:0;background-image:url(../images/arrows-arrowhead-solid-left.png);background-position: left bottom;}
+.next{float:right;width:20px;height:35px;margin:0;background-image:url(../images/arrows-arrowhead-solid-right.png);background-position: right bottom;}
+
+.results {padding: 3px 0}
+.results span {float:left;}
+
+/*
+.icon-edit { background-image:url('../images/pencil.png');}
+.icon-save { background-image:url('../images/disk.png');}
+.icon-delete { background-image:url('../images/delete.png');}
+*/
+
+
+.tab-orange{border-color: #f90;}
+.tab-yellow{border-color: #dd5;}
+.tab-green{border-color: #7D9029;}
+.tab-azure{border-color: #0077ff;}
+.tab-blue{border-color: #00f;}
+.tab-indigo{border-color: #60f;}
+.tab-violet{border-color: #b0b;}
+.tab-red{border-color: #d00;}
+.tab-tan{border-color: #ddb;}
+
+
+.edit-box{margin:5px;border-bottom: solid 1px #333}
+.edit-box textarea, .edit-box input {width:98%}
+.item{margin:5px;border-bottom: solid 1px #cdcdcd}
+.item .meta {font-style: italic;margin-top: 3px;}
+.meta{text-align: right;margin-right: 50px;}
+.item-edit {margin:5px;border-bottom: solid 2px #333}
+/*.item textarea, .item input{width:80%;}*/
+
+
+.checkbox-false{border:1px solid #000;border-radius: 2px;background-color: #ddd}
+.checkbox-true{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick.png')}
+
+.checkbox-0{border:1px solid #000;border-radius: 2px;background-color: #ddd}
+.checkbox-1{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-blue.png')}
+.checkbox-2{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-orange.png')}
+.checkbox-3{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-grey.png')}
+.checkbox-4{border:1px solid #000;border-radius: 2px;background-image: url('../images/tick-green.png')}
+
+.icon-edit { background-image:url('../images/pencil.png');}
+.icon-save { background-image:url('../images/disk.png');}
+.icon-delete { background-image:url('../images/delete.png');}
+

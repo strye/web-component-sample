@@ -1,0 +1,37 @@
+:root {
+	--color-1: rgb(139,123,37);
+	--color-2: rgb(185,211,227);
+	--color-3: rgb(112,109,109);
+	--color-4: rgb(78,25,34);
+	--color-5: rgb(178,103,64);
+	--color-6: rgb(95,129,192);
+	--color-7: rgb(132,0,18);
+	--color-8: rgb(71,102,106);
+	--color-9: rgb(166,124,123);
+	--color-10: rgb(63,45,37);
+	--color-lite: rgb(235,245,255);
+	--color-dark: rgb(33,33,33);
+
+
+	--main-bg-color: var(--color-3);
+	--main-fn-color: var(--color-3);
+
+	--secondary-bg-color: var(--color-3);
+	--secondary-fn-color: var(--color-3);
+
+	--highlite-bg-color: var(--color-3);
+	--highlite-fn-color: var(--color-3);
+}
+
+/*
+.sotd1-c1 {background-color: rgb(139,123,37); color: hsl(50,57,34)}
+.sotd1-c2 {background-color: rgb(185,211,227); color: hsl(202,42,80)}
+.sotd1-c3 {background-color: rgb(112,109,109); color: hsl(0,1,43)}
+.sotd1-c4 {background-color: rgb(78,25,34); color: hsl(349,51,20)}
+.sotd1-c5 {background-color: rgb(178,103,64); color: hsl(20,47,47)}
+.sotd1-c6 {background-color: rgb(95,129,192); color: hsl(218,43,56)}
+.sotd1-c7 {background-color: rgb(132,0,18); color: hsl(351,100,25)}
+.sotd1-c8 {background-color: rgb(71,102,106); color: hsl(186,19,34)}
+.sotd1-c9 {background-color: rgb(166,124,123); color: hsl(1,19,56)}
+.sotd1-c10 {background-color: rgb(63,45,37); color: hsl(18,25,19)}
+*/

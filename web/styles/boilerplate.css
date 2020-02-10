@@ -1,0 +1,56 @@
+/* Initial cleanup
+----------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0 none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+}
+header,footer,nav,section {display: block;}
+:focus {outline: 0 none;}
+form label {cursor: pointer;}
+input, select, textarea {font-size: 100%;}
+.clearer {clear: both;}
+
+/* Initial Setup
+----------------------------------------------- */
+p {margin: 0 0 1em 0;}
+ul, ol {margin: 0 0 1em 2em;}
+ul {list-style: disc;}
+li {margin: 0 0 0.25em 0;}
+strong {font-weight: bold;}
+code {font-family: 'Courier New', Courier, monospace; font-size: 1.1em; color: #7ca653;}
+acronym {border-bottom: 1px solid #8fb7bf;}
+small {font-size: 0.8em;}
+h1, h2, h3, h4 {font-weight: normal; line-height: 120%;padding: 0 0 0.1em 0;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em; border-bottom: 1px solid #ccc;}
+h3 {font-size: 1.25em; text-transform: uppercase;}
+h4 {font-size: 0.8em;text-transform: uppercase;}
+input, select, textarea {width:150px;}
+input[type=radio], input[type=checkbox] {width:16px;}
+a {text-decoration: none;}
+/*a:link, a:visited, a:active {color: #00B7FF;}
+a:hover {color: #a8001c;}*/
+
+
+
+/* Helpers Setup
+----------------------------------------------- */
+.hidden {display: none;}
+.icon {display:block; height:16px; width:16px;float:left;margin: 3px 4px; cursor: pointer; }
+.icon-spacer {display:block; height:16px; width:10px;float:left;margin: 3px 4px;}
+.date {width:75px;}
+.text {width:80%;}
+.text-half {width:40%;}
+
+
+.flt-lft{float:left;}
+.flt-rgt{float:right;}
+.clearfix{clear: both;}
+

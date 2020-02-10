@@ -1,0 +1,24 @@
+:root {
+	--color-1: rgb(59,36,31);
+	--color-2: rgb(73,90,127);
+	--color-3: rgb(41,36,48);
+	--color-4: rgb(244,97,81);
+	--color-5: rgb(134,117,138);
+	--color-6: rgb(131,158,178);
+	--color-7: rgb(76,51,29);
+	--color-8: rgb(229,191,171);
+	--color-9: rgb(151,174,152);
+	--color-10: rgb(25,30,56);
+	--color-lite: rgb(235,245,255);
+	--color-dark: rgb(33,33,33);
+
+	--main-bg-color: var(--color-8);
+	--main-fn-color: var(--color-dark);
+
+	--secondary-bg-color: var(--color-6);
+	--secondary-fn-color: var(--color-dark);
+
+	--highlite-bg-color: var(--color-4);
+	--highlite-fn-color: var(--color-dark);
+}
+

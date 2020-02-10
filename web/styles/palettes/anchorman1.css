@@ -1,0 +1,34 @@
+:root {
+	--color-1: rgb(19,30,14);
+	--color-2: rgb(51,64,25);
+	--color-3: rgb(67,92,58);
+	--color-4: rgb(57,82,114);
+	--color-5: rgb(78,122,161);
+	--color-6: rgb(178,204,255);
+	--color-7: rgb(231,203,218);
+	--color-8: rgb(168,115,106);
+	--color-9: rgb(95,60,57);
+	--color-10: rgb(38,21,21);
+	--color-lite: rgb(235,245,255);
+	--color-dark: rgb(33,33,33);
+
+	--main-bg-color: var(--color-lite);
+	--main-fn-color: var(--color-1);
+
+	--secondary-bg-color: var(--color-3);
+	--secondary-fn-color: var(--color-lite);
+
+	--alt-bg-color: var(--color-1);
+	--alt-fn-color: var(--color-lite);
+	--alt-sec-bg-color: var(--color-2);
+	--alt-sec-fn-color: var(--color-lite);
+
+	--highlite-bg-color: var(--color-7);
+	--highlite-fn-color: var(--color-10);
+
+	--alert-bg-color: var(--color-8);
+	--alert-fn-color: var(--color-7);
+
+	--input-hilite-bg: var(--color-7)
+}
+

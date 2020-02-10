@@ -111,22 +111,13 @@ class ExpanseList extends HTMLElement {
 	addBox(item){
 		var container = this.shadowRoot.querySelector('#expanses');
 
-		var eBox = document.createElement('kolab-expanse-box');
+		var eBox = document.createElement('expanse-box');
 		eBox.setAttribute('id', "teb-" + item._id);
 		eBox.setAttribute('mode', 'V');
-		eBox.bindData(item);
 		eBox.addEventListener('delete', function (e) { 
 			console.log("list", "Deleted");
 		}, false);
 		container.appendChild(eBox);
-
-	}
-	updateBox(newItem){
-		var container = this.shadowRoot.querySelector('#expanses');
-
-		var eBox = container.querySelector('#teb-' + newItem._id);
-		if (eBox) { eBox.bindData(newItem); }
-
 	}
 	deleteBox(deleted){
 		var container = this.shadowRoot.querySelector('#expanses');
@@ -135,7 +126,6 @@ class ExpanseList extends HTMLElement {
 		if (eBox) { 
 			container.removeChild(eBox); 
 		}
-
 	}
 
 
@@ -146,28 +136,15 @@ class ExpanseList extends HTMLElement {
         this.render()
 
 
-		self = this;
-		root = self.createShadowRoot();
-
-		var t = importDoc.querySelector('#expanse-list');
-		var clone = document.importNode(t.content, true);
-		root.appendChild(clone);
-
-
-		// Setup the data
-		self.bindData(kolab.data.getExpanses());
-
-
-
-		root.querySelector("#add-expanse").addEventListener('click', function(e) {
+		this.shadowRoot.querySelector("#add-expanse").addEventListener('click', function(e) {
 			showElement(root, '#new-expanse');
 			hideElement(root, '#add-expanse');
   		});
-		root.querySelector("#cancel-add").addEventListener('click', function(e) {
+		  this.shadowRoot.querySelector("#cancel-add").addEventListener('click', function(e) {
 			hideElement(root, '#new-expanse');
 			showElement(root, '#add-expanse');
 		});
-		root.querySelector("#save-add").addEventListener('click', function(e) {
+		this.shadowRoot.querySelector("#save-add").addEventListener('click', function(e) {
 			tempId++;
 			var title = root.querySelector('#add-title').value;
 			var purpose = root.querySelector('#add-purpose').value;

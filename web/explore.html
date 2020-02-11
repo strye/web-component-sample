@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel='stylesheet' href='/styles/about.css' />
+
+    <script type="module" src="/elements/page-header.js"></script>
+    <script type="module" src="/js/page-about.js"></script>
+</head>
+<body>
+	<page-header page-title="kolab - About">
+		<nav slot="navMenu"></nav>
+	</page-header>
+	<div id="page">
+		<div id="content" class="content">
+			<h1>About this application</h1>
+			<div>
+			This is a reference project for a simple full stack web project. 
+			It uses native web-components on the UI and a node-js server with express js 
+			to serve content and socket-io for real-time communication.
+			</div>
+			<div><button id="btUpdate">Test</button></div>
+		</div> <!-- end content -->
+	</div> <!-- end page -->
+
+
+</body>
+</html>

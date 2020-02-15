@@ -1,5 +1,5 @@
-//const tableOne = require("./table1");
+const expanses = require("./expanses");
 
 module.exports.Version = '0.0.0';
 
-//module.exports.SampleOne = tableOne;
+module.exports.Expanses = expanses;

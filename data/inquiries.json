@@ -1,0 +1,6 @@
+[
+	{ "_id" : "50bd95ac3f60a61804000011" , "answer" :  null  , "answeredOn" :  null  , "askedOn" : "2012-12-04T06:18:20.691Z" , "question" : "New question" , "expanseId" : "50db42348ee191efa1f6732f" , "explorationId" : "50d8b2fb3076d1011df8c649"}
+	,{ "_id" : "50b14049ba90fc0e1300000f" , "answer" :  null  , "answeredOn" :  null  , "askedOn" : "2012-11-24T21:46:49.252Z" , "question" : "Can we add new questions for strategy?" , "expanseId" : "50db42348ee191efa1f6732f" , "explorationId" : "50d8b32d3076d1011df8c64c"}
+	,{ "_id" : "50b144f3ba90fc0e13000041" , "answer" :  null  , "answeredOn" :  null  , "askedOn" : "2012-11-24T22:06:43.295Z" , "question" : "Strategy Question 2" , "expanseId" : "50db42348ee191efa1f6732f" , "explorationId" : "50d8b32d3076d1011df8c64c"}
+	,{ "_id" : "512ace713c12d1000000001d" , "answer" : "Tomorrow's Answer" , "answeredOn" : "2013-02-25T02:37:58.867Z" , "askedOn" : "2013-02-25T02:37:37.572Z" , "question" : "Question 3.1" , "expanseId" : "50db42348ee191efa1f6732f" , "explorationId" : "50d8b3233076d1011df8c64b"}
+]

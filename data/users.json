@@ -1,0 +1,4 @@
+[
+	{ "_id" : "gordon.solomon@bornmonday.com" , "fullName" : "Solomon Grundy" , "password" : "grundy" , "spaces" : [ "50db42348ee191efa1f6732f" , "50db42528ee191efa1f67331"] , "username" : "grundy"}
+	,{ "_id" : "will.strye@malignantgenius.com" , "fullName" : "Will Strye" , "password" : "will" , "spaces" : [ "50db42348ee191efa1f6732f" , "50db42488ee191efa1f67330" , "50db42528ee191efa1f67331"] , "username" : "Will"}
+]

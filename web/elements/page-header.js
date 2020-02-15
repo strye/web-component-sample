@@ -18,7 +18,6 @@ template.innerHTML = /*html*/`
 		header h1 {font-size: 24px; padding: 0; margin: 0 8px;width:80%;float:left;}
 
 		.menu .nav-menu {float:right}
-		
 		.menu div a {float:right; border: 2px solid #d33;}
 
 		::slotted(a) {color:var(--secondary-fn-color)}

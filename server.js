@@ -1,5 +1,4 @@
 const port = 8080,
-	bodyParser = require("body-parser"),
 	express = require("express"),
 	app = express(),
 	http = require('http').Server(app),
@@ -14,8 +13,8 @@ app.use('/js', express.static('web/js'))
 app.use('/styles', express.static('web/styles'))
 app.use('/elements', express.static('web/elements'))
 app.use('/assets', express.static('web/assets'))
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 // const okta = require('@okta/okta-sdk-nodejs');
 

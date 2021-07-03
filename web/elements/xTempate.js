@@ -14,6 +14,7 @@ template.innerHTML = /*html*/`
 
 class XTemplate extends HTMLElement {
     static get is() { return 'x-template'; }
+    static get observedAttributes() { return ['elm-title']; }
     constructor(options) {
         super();
         this._elmTitle = "";
@@ -39,6 +40,16 @@ class XTemplate extends HTMLElement {
             render()
         }
     }
+    get elmTitle(){
+        return this._elmTitle;
+    }
+    set elmTitle(val){
+		this._elmTitle = val;
+        if (val) { this.setAttribute('elm-title', val); } 
+        else { this.removeAttribute('elm-title'); }
+		this.render()
+    }
+
 
 }  // END XTemplate
 
